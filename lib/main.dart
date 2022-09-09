@@ -8,16 +8,7 @@ import 'package:registrationsystem/screens v.2/signin.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: FirebaseOptions(
-      apiKey: "*****",
-      appId: "****",
-      messagingSenderId: "****",
-      projectId: "*****",
-
-    ),
-  );
-
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
