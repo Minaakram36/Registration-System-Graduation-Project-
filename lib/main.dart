@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-//import 'package:registrationsystem/screens/youtubedownload.dart';
+
 
 import 'package:registrationsystem/screens v.2/signin.dart';
 
@@ -10,10 +10,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-      apiKey: "AIzaSyCVxSobDFg0xXocq4tmvAnxvS1-FGgPlvc",
-      appId: "1:718736233863:android:f6b4d030574df2d02e2f22",
-      messagingSenderId: "718736233863",
-      projectId: "registration-system-97c6f",
+      apiKey: "*****",
+      appId: "****",
+      messagingSenderId: "****",
+      projectId: "*****",
 
     ),
   );
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
           colorScheme:
           ColorScheme.fromSwatch().copyWith(secondary: Colors.amber)),
       routes: {
-        '/': (context) => Signin(),//DownloadScreen()
+        '/': (context) => Signin()
       },
     );
 
