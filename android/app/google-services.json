@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "718736233863",
+    "project_id": "registration-system-97c6f",
+    "storage_bucket": "registration-system-97c6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718736233863:android:f6b4d030574df2d02e2f22",
+        "android_client_info": {
+          "package_name": "com.registrationsystem.registrationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718736233863-p2c667hn12d1q4sn1gbh1p3vf5ggmth4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVxSobDFg0xXocq4tmvAnxvS1-FGgPlvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718736233863-p2c667hn12d1q4sn1gbh1p3vf5ggmth4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "718736233863-b98is469oa4v3j47gae9pc3j8iq17k6v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.RegistrationGraduation.app.registrationSystem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
